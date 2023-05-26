@@ -3,17 +3,25 @@
     box-sizing: border-box;
     font-family: sans-serif;
   }
-
+  body {
+    width: auto;
+}  
+.top {
+    background-color: azure;
+    margin: 0rem;
+    padding-bottom: 3rem;
+}
 h1 {
     color: #20b6ac;
-    margin: 1rem 1rem;
+    margin: .5rem 2rem;
+    font-size: 2rem;
 }
  /* Styling the menu button */
  .menu-btn {
     position:absolute;
     z-index: 3;
-    right: 10px;
-    top: 23px;
+    right: 23px;
+    top: 26px;
     cursor: pointer;
     transition: all 0.5s ease-out;
 }
@@ -76,6 +84,7 @@ h1 {
 }
 .menu.show {
     visibility: visible;
+    z-index: 100;
 }
 
 .name {
@@ -86,45 +95,93 @@ h1 {
     font-size: 25px;    
 }
 /* Adding a transition delay to the
-   4 items in the navigation menu */
+   5 items in the navigation menu */
 .nav-item:nth-child(1) {
-    transition-delay: 0.1s;
+    transition-delay: 0.5s;
 }
 
 .nav-item:nth-child(2) {
-    transition-delay: 0.3s;
+    transition-delay: 0.6s;
 }
 
 .nav-item:nth-child(3) {
-    transition-delay: 0.4s;
+    transition-delay: 0.7s;
 }
 
 .nav-item:nth-child(4) {
-    transition-delay: 0.5s;
+    transition-delay: 0.8s;
 }
 .nav-item:nth-child(5) {
-    transition-delay: 0.6s;
+    transition-delay: 0.9s;
 }
 .nav-link {
-    color: #20b6ac;
+    color: lightcoral;
+    text-decoration: none;
+}
+.header {
+    background-color: azure;
+    padding-top: 1rem;
+    box-shadow: -2px 19px 61px lightseagreen;
 }
 .intro {
-     width: 23.5rem;
+     background-image: url("forest3.jpg");
+     width: 23rem;
      height: 26rem; 
      clip-path: polygon(0 10%, 100% 0, 100% 82%, 0 100%);
 }
 .intro h1 {
     color: lightcoral;
-    margin: 7rem 3rem;
+    margin: 7rem 7rem;
     font-size: 2rem;
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 .intro p {
     color: lightcoral;
-    margin: -6rem 2rem;
-    font-size: 1rem;
+    margin: -6rem 4rem;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+.about {
+    margin-top: 5rem;
+    width: 23rem;
+    height: 40rem; 
+}
+.center {
+    margin-top: 5rem;
+    width: 23rem;
+    height: 40rem; 
+    border-radius: 17%;
+    clip-path: polygon(0 10%, 100% 0, 100% 82%, 0 100%);
+    border-style: double;
+}
+.pic {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 22rem;
+    height: 22rem;  
+    clip-path: polygon(0 -1%, 100% 0, 100% 104%, 0 100%);
+    border-radius: 65%;
+    border-style: double;
+    
+}
+.pic p {
+    padding-top: 7rem;
+    margin-left: 11rem;
+    font-size: 1.5rem;
+}
+.about p {
+    color:#20b6ac;
+    margin: 1rem;
 }
 .footer {
-    margin-top: 23.5rem;
+    background-color:azure;
+    margin-top: 16rem;
     margin-bottom: -8rem;
+    padding-top: 2rem;
+    box-shadow: -2px -22px 61px lightseagreen;
 }
+.footer h1 {
+    font-size: 1.5rem;
+    color:#20b6ac;
+}
+
