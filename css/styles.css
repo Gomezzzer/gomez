@@ -156,6 +156,8 @@ h1 {
     padding-left: 20px;
     margin-top: -29rem;;   
 }
+
+  
 .monkey-head {
     width: 22rem;
     margin-top: -1rem;
@@ -213,6 +215,24 @@ h1 {
     background-color: #20b6ac;
     margin-left: .7rem;
 }
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 36px;
+    color: #20b6ac;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: pink;
+  }
+  
 .footer {
     background-color:azure;
     margin-top: 16rem;
@@ -223,6 +243,15 @@ h1 {
 .footer h1 {
     font-size: 1.5rem;
     color:#20b6ac;
+}
+.copyright {
+    color: lightcoral;
+    margin: 1rem;
+}
+.top2 h1 {
+    color: lightsalmon;
+    padding-top: 4rem;
+    padding-left: 9rem;
 }
 @keyframes chainReaction {
 	0% {

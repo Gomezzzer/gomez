@@ -1,0 +1,31 @@
+ <div class="monkey-head">
+   <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">    <!-- Monkey body -->
+    
+    <circle cx="100" cy="120" r="70" fill="#FFC0CB" />
+    
+    <!-- Monkey head -->
+    <circle cx="100" cy="80" r="50" fill="#FFC0CB" />
+    
+    <!-- Monkey face -->
+    <circle cx="80" cy="70" r="10" fill="#FFFFFF" />
+    <circle cx="120" cy="70" r="10" fill="#FFFFFF" />
+    <circle cx="80" cy="70" r="5" fill="#000000" />
+    <circle cx="120" cy="70" r="5" fill="#000000" />
+    <path d="M80,100 Q100,110 120,100" fill="none" stroke="#000000" stroke-width="3" />
+    
+    <!-- Monkey ears -->
+    <circle cx="60" cy="80" r="15" fill="#FFC0CB" />
+    <circle cx="140" cy="80" r="15" fill="#FFC0CB" />
+    
+    <!-- Monkey arms -->
+    <path d="M50,120 Q30,140 50,160" fill="#FFC0CB" />
+    <path d="M150,120 Q170,140 150,160" fill="#FFC0CB" />
+    
+    <!-- Monkey hands -->
+    <circle cx="50" cy="160" r="10" fill="#FFC0CB" />
+    <circle cx="150" cy="160" r="10" fill="#FFC0CB" />
+    
+    <!-- Monkey tail -->
+    <path d="M180,150 Q170,140 170,120 Q170,100 180,90" fill="#FFC0CB" />
+  </svg>
+</div>
