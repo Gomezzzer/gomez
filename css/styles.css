@@ -200,10 +200,10 @@ h1 {
 .box {
     padding-top: 5rem;
     margin-top: 2rem;
-    width: 34%;
+    width: 65%;
     border-radius: 50px;
-    background: #8bd3dd;
-    box-shadow: inset 20px 20px 60px #fef6e4,
+    background: #ff8ba7;
+    box-shadow: inset 20px 20px 60px #ff8ba7,
                 inset -20px -20px 60px #ffffff;
 }
 .box-section {
@@ -319,4 +319,11 @@ h1 {
         -webkit-text-fill-color: transparent;
         padding-top: 0rem;
     }
+
+  }
+
+  @media (min-width: 820px) {
+     .footer {
+        padding-top: 10rem;
+     }
   }
