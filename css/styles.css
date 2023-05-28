@@ -7,12 +7,12 @@
     width: auto;
 }  
 .top {
-    background-color: #D8D1D5;
+    background-color: #fef6e4;
     margin: 0rem;
     padding-bottom: 13rem;
 }
 h1 {
-    color: #20b6ac;
+    color: #8bd3dd;
     margin-top: -4rem;
     margin-left: 1rem;
     font-size: 1rem;
@@ -31,7 +31,7 @@ h1 {
     position: fixed;
     width: 100%;
     height: 70px;
-    color:  #D8D1D5;
+    color:  #fef6e4;
 }
  
 /* Styling the hamburger lines */
@@ -72,7 +72,7 @@ h1 {
 }
 
 .menu-nav {
-    background-color: #D8D1D5;
+    background-color: #8bd3dd;
     text-align: center;
     margin-left: -32px;
     padding-right: 27px;
@@ -119,23 +119,21 @@ h1 {
     text-decoration: none;
 }
 .header {
-    background-color:  #D8D1D5;
+    background-color:  #fef6e4;
     padding-top: 5rem;
  /*   box-shadow: -2px 19px 61px lightseagreen;*/
 }
 .intro {
-     background-image: url("forest3.jpg");
      width: 23rem;
      height: 26rem; 
      clip-path: polygon(0 10%, 100% 0, 100% 82%, 0 100%);
      padding-top: 2rem;
 }
 .intro h1 {
-    color: lightcoral;
     margin: 6rem 3rem;
     font-size: 4rem;
     font-size: 72px;
-    background: -webkit-linear-gradient(red, white);
+    background: -webkit-linear-gradient(white, #8bd3dd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 5rem;
@@ -144,7 +142,7 @@ h1 {
     color: lightcoral;
     margin: -9rem 4rem;
     font-size: 4.5rem;
-    background: -webkit-linear-gradient(red, white);
+    background: -webkit-linear-gradient(white, #8bd3dd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 1rem;
@@ -168,7 +166,7 @@ h1 {
     height: 40rem; 
 }
 .demo a {
-    color:#20b6ac;
+    color: #8bd3dd;
     padding: 10rem;
     font-size: 13px;
 }
@@ -204,9 +202,13 @@ h1 {
     margin-top: 2rem;
     width: 34%;
     border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow: inset 20px 20px 60px #20b6ac,
+    background: #8bd3dd;
+    box-shadow: inset 20px 20px 60px #fef6e4,
                 inset -20px -20px 60px #ffffff;
+}
+.box-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .line1 {
     height: 12vh;
@@ -224,7 +226,7 @@ h1 {
   
   .social-icons a {
     margin-right: 36px;
-    color: #20b6ac;
+    color: #f582ae;
     font-size: 24px;
     transition: color 0.3s ease;
   }
@@ -234,24 +236,26 @@ h1 {
   }
   
 .footer {
-    background-color:azure;
-    margin-top: 16rem;
-    margin-bottom: -8rem;
-    padding-top: 2rem;
-    box-shadow: -2px -22px 61px lightseagreen;
+    background-color: #fef6e4;
+    padding: 2rem;
+/*    box-shadow: -2px -22px 61px lightseagreen;*/
 }
 .footer h1 {
     font-size: 1.5rem;
     color:#20b6ac;
 }
 .copyright {
-    color: lightcoral;
+    color: #f582ae;
     margin: 1rem;
 }
 .top2 h1 {
-    color: lightsalmon;
+    font-size: 1rem;
+    color: #8bd3dd;
     padding-top: 4rem;
-    padding-left: 9rem;
+    padding-left: 7rem;
+}
+.top2 a {
+    text-decoration: none;
 }
 @keyframes chainReaction {
 	0% {
@@ -301,7 +305,7 @@ h1 {
       .intro h1 {
         color: lightcoral;
         font-size: 123px;
-        background: -webkit-linear-gradient(red, white);
+        background: -webkit-linear-gradient(white, #8bd3dd);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding-top: 5rem;
@@ -310,7 +314,7 @@ h1 {
         color: lightcoral;
         margin: -9rem 4rem;
         font-size: 7.5rem;
-        background: -webkit-linear-gradient(red, white);
+        background: -webkit-linear-gradient(white, #8bd3dd);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding-top: 0rem;
