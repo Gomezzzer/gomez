@@ -53,4 +53,5 @@ const menu = document.querySelector(".menu");
   
   }; 
 
- 
+/*WindowOnload Fade-In*/
+

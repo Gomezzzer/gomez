@@ -7,14 +7,15 @@
     width: auto;
 }  
 .top {
-    background-color: azure;
+    background-color: #D8D1D5;
     margin: 0rem;
-    padding-bottom: 3rem;
+    padding-bottom: 13rem;
 }
 h1 {
     color: #20b6ac;
-    margin: .5rem 2rem;
-    font-size: 2rem;
+    margin-top: -4rem;
+    margin-left: 1rem;
+    font-size: 1rem;
 }
  /* Styling the menu button */
  .menu-btn {
@@ -30,7 +31,7 @@ h1 {
     position: fixed;
     width: 100%;
     height: 70px;
-    color: #20b6ac;
+    color:  #D8D1D5;
 }
  
 /* Styling the hamburger lines */
@@ -38,7 +39,7 @@ h1 {
     width: 36px;
     height: 5px;
     margin: 0 0 5px 0;
-    background: #20b6ac;
+    background: lightcoral;
     transition: all 0.5s ease-out;
 }
 
@@ -71,8 +72,7 @@ h1 {
 }
 
 .menu-nav {
-    background-color: lightblue;
-    color: #20b6ac;
+    background-color: #D8D1D5;
     text-align: center;
     margin-left: -32px;
     padding-right: 27px;
@@ -119,32 +119,56 @@ h1 {
     text-decoration: none;
 }
 .header {
-    background-color: azure;
-    padding-top: 1rem;
-    box-shadow: -2px 19px 61px lightseagreen;
+    background-color:  #D8D1D5;
+    padding-top: 5rem;
+ /*   box-shadow: -2px 19px 61px lightseagreen;*/
 }
 .intro {
      background-image: url("forest3.jpg");
      width: 23rem;
      height: 26rem; 
      clip-path: polygon(0 10%, 100% 0, 100% 82%, 0 100%);
+     padding-top: 2rem;
 }
 .intro h1 {
     color: lightcoral;
-    margin: 7rem 7rem;
-    font-size: 2rem;
-    padding-top: 5rem;
+    margin: 6rem 3rem;
+    font-size: 4rem;
+    font-size: 72px;
+    background: -webkit-linear-gradient(red, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5rem;
 }
-.intro p {
+.intro h2 {
     color: lightcoral;
-    margin: -6rem 4rem;
-    font-size: 1.5rem;
+    margin: -9rem 4rem;
+    font-size: 4.5rem;
+    background: -webkit-linear-gradient(red, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding-top: 1rem;
+}
+.left-side h1 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-left: -1rem;
+    padding-left: 20px;
+    margin-top: -29rem;;   
+}
+.monkey-head {
+    width: 22rem;
+    margin-top: -1rem;
 }
 .about {
     margin-top: 5rem;
     width: 23rem;
     height: 40rem; 
+}
+.demo a {
+    color:#20b6ac;
+    padding: 10rem;
+    font-size: 13px;
 }
 .center {
     margin-top: 5rem;
@@ -162,7 +186,7 @@ h1 {
     clip-path: polygon(0 -1%, 100% 0, 100% 104%, 0 100%);
     border-radius: 65%;
     border-style: double;
-    
+
 }
 .pic p {
     padding-top: 7rem;
@@ -172,6 +196,22 @@ h1 {
 .about p {
     color:#20b6ac;
     margin: 1rem;
+}
+.box {
+    padding-top: 5rem;
+    margin-top: 2rem;
+    width: 34%;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #20b6ac,
+                inset -20px -20px 60px #ffffff;
+}
+.line1 {
+    height: 12vh;
+    width: .5vw;
+    border-width: 0;
+    background-color: #20b6ac;
+    margin-left: .7rem;
 }
 .footer {
     background-color:azure;
@@ -184,4 +224,66 @@ h1 {
     font-size: 1.5rem;
     color:#20b6ac;
 }
+@keyframes chainReaction {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  
+  
+  /*div p {
+	animation: chainReaction 2s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+  }*/
+  
+  .parallax-window .welcome-page-div {
+	animation: chainReaction 5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	text-align: center;
+	font-family: Beautiful ES;
+	font-size: 30px;
+	font-weight: lighter;
+  }
+  
+  .parallax-window .welcome-page-div:nth-child(1) {
+	animation-delay: .3s;
+  }
+  
+  .parallax-window .welcome-page-div:nth-child(2) {
+	animation-delay: 1s;
+  }
+  
+  
+  /*WindowOnload Fade-In*/ 
 
+  @media (min-width: 768px) {
+    .intro {
+        background-image: url("forest3.jpg");
+        width: 36rem;
+        height: 30rem; 
+        clip-path: polygon(0 10%, 100% 0, 100% 82%, 0 100%);
+   }
+
+      .intro h1 {
+        color: lightcoral;
+        font-size: 123px;
+        background: -webkit-linear-gradient(red, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 5rem;
+      }
+      .intro h2 {
+        color: lightcoral;
+        margin: -9rem 4rem;
+        font-size: 7.5rem;
+        background: -webkit-linear-gradient(red, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 0rem;
+    }
+  }
